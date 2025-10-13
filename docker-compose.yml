@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  oracle:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oracle-xe
+    restart: always
+    environment:
+      ORACLE_PASSWORD: admin
+      ORACLE_DATABASE: XE
+      ORACLE_USER: system
+    ports:
+      - "1521:1521"
+    volumes:
+      - ./dane:/opt/oracle/dane
+      - ./main.sql:/opt/oracle/scripts/startup/main.sql
+    healthcheck:
+      test: ["CMD", "echo", "SELECT 1 FROM DUAL;", "|", "sqlplus", "-s", "system/admin@localhost/XEPDB1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - oracle-net
+
+networks:
+  oracle-net:
+    driver: bridge
