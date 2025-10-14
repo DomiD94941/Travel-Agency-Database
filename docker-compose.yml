@@ -13,7 +13,9 @@ services:
       - "1521:1521"
     volumes:
       - ./dane:/opt/oracle/dane
-      - ./main.sql:/opt/oracle/scripts/startup/main.sql
+      - ./sql/user/execute_on_user.sql:/opt/oracle/scripts/startup/user/main.sql
+      - ./sql/system/execute_on_system.sql:/opt/oracle/scripts/startup/system/main.sql
+      - ./sql/system/create_user.sql:/opt/oracle/scripts/startup/system/create_user.sql
     healthcheck:
       test: ["CMD", "echo", "SELECT 1 FROM DUAL;", "|", "sqlplus", "-s", "system/admin@localhost/XEPDB1"]
       interval: 30s
