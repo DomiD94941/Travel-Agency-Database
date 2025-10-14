@@ -60,7 +60,18 @@ Expose Oracle port 1521
 
 ### 2. Connect to the Database
 
-#### 1. if you want execute scripts on system.
+#### 1. Create Oracle image
+
+```bash
+docker run -d -p 1521:1521 -e ORACLE_PASSWORD=admin gvenzl/oracle-xe
+```
+Then start it:
+
+```bash
+docker-compose up -d
+```
+
+#### 2. if you want execute scripts on system.
 
 From Docker CLI:
 
@@ -77,7 +88,7 @@ sqlplus system/admin@//localhost:1521/XE
 @/opt/oracle/scripts/startup/system/main.sql
 ```
 
-#### 2. If you want to execute scripts on created user from scritp: sql/system/create_user.sql
+#### 3. If you want to execute scripts on created user from scritp: sql/system/create_user.sql
 
 From user SYSTEM:
 
