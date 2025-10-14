@@ -303,10 +303,16 @@ INSERT INTO Przewodnicy SELECT * FROM Przewodnicy_EXT;
 -- GUIDES_TRIPS LINK TABLE
 ------------------------------------------------------------
 
+BEGIN
+  EXECUTE IMMEDIATE 'DROP TABLE Przewodnicy_Wycieczki CASCADE CONSTRAINTS PURGE';
+EXCEPTION WHEN OTHERS THEN NULL;
+END;
+/
+
 CREATE TABLE Przewodnicy_Wycieczki (
   ID_Przewodnika_Wycieczki NUMBER PRIMARY KEY,
   Przewodnicy_ID_Przewodnika NUMBER REFERENCES Przewodnicy(ID_Przewodnika),
-  Wycieczki_ID_Wycieczki NUMBER
+  Wycieczki_ID_Wycieczki NUMBER REFERENCES Wycieczki(ID_Wycieczki)
 );
 
 CREATE TABLE Przewodnicy_Wycieczki_EXT (
