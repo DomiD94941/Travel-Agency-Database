@@ -1,0 +1,21 @@
+id_pracownika,imie,nazwisko,stanowisko,email,telefon,wiek
+1,Piotr,Kowalski,Manager piatki,piotr.kowalski@travel.com,123456789,45
+2,Alicja,Zielińska,Koordynator wycieczek,alicja.zielinska@travel.com,123456788,38
+3,Jakub,Jankowski,Przewoźnik,jakub.jankowski@travel.com,123456787,40
+4,Monika,Nowakowska,Specjalista ds. rezerwacji,monika.nowakowska@travel.com,123456786,33
+5,Marek,Szymański,Kierownik grupowy,marek.szymanski@travel.com,123456785,50
+6,Grzegorz,Wiśniewski,Asystent przewodnika,grzegorz.wisniewski@travel.com,123456784,28
+7,Karolina,Kaminska,Przewodnik,karolina.kaminska@travel.com,123456783,35
+8,Tomasz,Kowalczyk,Specjalista ds. organizacji,tomasz.kowalczyk@travel.com,123456782,42
+9,Patrycja,Chmiel,Przewoźnik,patrycja.chmiel@travel.com,123456781,36
+10,Łukasz,Malinowski,Manager grupowy,lukasz.malinowski@travel.com,123456780,48
+11,Ewa,Sikorska,Koordynator wycieczek,ewa.sikorska@travel.com,123456779,30
+12,Adrian,Zawisza,Asystent przewodnika,adrian.zawisza@travel.com,123456778,29
+13,Anna,Jabłońska,Specjalista ds. rezerwacji,anna.jablonska@travel.com,123456777,31
+14,Grzegorz,Kozłowski,Kierownik transportu,grzegorz.kozlowski@travel.com,123456776,44
+15,Katarzyna,Wiśniewska,Przewodnik,karolina.wisniewska@travel.com,123456775,37
+16,Paweł,Jaworski,Specjalista ds. rezerwacji,pawel.jaworski@travel.com,123456774,40
+17,Olga,Marek,Koordynator wycieczek,olga.marek@travel.com,123456773,35
+18,Jacek,Zawisza,Przewoźnik,jacek.zawisza@travel.com,123456772,39
+19,Krystyna,Nowakowska,Asystent przewodnika,krystyna.nowakowska@travel.com,123456771,32
+20,Barbara,Wiśniewska,Kierownik grupowy,barbara.wisniewska@travel.com,123456770,46

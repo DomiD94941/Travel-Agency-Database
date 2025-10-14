@@ -1,0 +1,69 @@
+id_wycieczki,nazwa,opis,data_wyjazdu,data_powrotu,liczba_osob,cena,miasta_id_miasta
+1,Weekend w Warszawie,Relaksująca wycieczka po stolicy Polski,2025-03-01,2025-03-04,20,1000.00,1
+2,Zimowa przygoda w Krakowie,Zwiedzanie Krakowa w zimowej scenerii,2025-02-15,2025-02-19,15,1200.00,2
+3,Nadmorska relaksacja w Gdańsku,Wypoczynek nad Bałtykiem - 5 dni pełne relaksu,2025-05-20,2025-05-25,10,1500.00,3
+4,Podróż do Wrocławia,Zwiedzanie historycznego Wrocławia,2025-04-10,2025-04-13,25,1100.00,4
+5,Przygoda w Poznaniu,Weekendowa wycieczka po starym Poznaniu,2025-06-01,2025-06-03,30,950.00,5
+6,Zwiedzanie Szczecina,Podróż po Pomorzu Zachodnim,2025-07-05,2025-07-08,18,800.00,6
+7,Monachium - Wypoczynek i historia,Relaks w stolicy Bawarii,2025-08-01,2025-08-06,12,2000.00,7
+8,Podróż do Frankfurtu,Miasto finansów i kultury,2025-09-01,2025-09-05,25,1500.00,8
+9,Hamburg i jego porty,Przygoda w niemieckim porcie,2025-07-15,2025-07-21,20,1300.00,9
+10,Stuttgart - Wypoczynek w mieście,Wypoczynek w niemieckim mieście pełnym atrakcji,2025-06-25,2025-06-29,10,1200.00,10
+11,Kolonia - Miasto katedr,Wycieczka do Kolonii z wizytą w słynnej katedrze,2025-03-15,2025-03-17,22,1100.00,11
+12,Historyczne Norymberga,Zwiedzanie miasta pełnego historii,2025-05-15,2025-05-18,15,1150.00,12
+13,Sztokholm - Miasto wysp,Relaks w stolicy Szwecji,2025-06-10,2025-06-15,18,1800.00,13
+14,Malmö - Wypoczynek nad morzem,Słoneczne dni w Szwecji nad Bałtykiem,2025-07-05,2025-07-08,14,1400.00,14
+15,Przygoda w Göteborgu,Podróż do drugiego największego miasta w Szwecji,2025-08-20,2025-08-24,20,1600.00,15
+16,Oslo - Stolica Norwegii,Wycieczka do Oslo z wizytą w muzeach i fiordach,2025-04-05,2025-04-08,12,1700.00,16
+17,Helesinki - Wypoczynek w fińskim stylu,Wyprawa po stolicy Finlandii,2025-09-15,2025-09-19,10,1500.00,17
+18,Tampere - Miasto jezior,Podróż do stolicy fińskich jezior,2025-10-01,2025-10-04,16,1400.00,18
+19,Espoo - Natura i nowoczesność,Wypoczynek w szwedzko-fińskim klimacie,2025-06-10,2025-06-12,14,1300.00,19
+20,Turku - Wizyta w mieście historii,Podróż do starego Turku,2025-07-20,2025-07-23,12,1200.00,20
+21,Florencja - Przygoda w Toskanii,Romantyczna wycieczka do Toskanii,2025-06-10,2025-06-14,30,2200.00,22
+22,Neapol - Historia i smak,Zwiedzanie wulkanu Wulkan oraz pyszna pizza,2025-08-15,2025-08-20,25,1900.00,23
+23,Turyn - Wypoczynek w północnych Włoszech,Wypoczynek w historycznym mieście,2025-09-10,2025-09-14,18,1600.00,24
+24,Medolany - Zakupy i kultura,Wakacje pełne zakupów w Mediolanie,2025-07-10,2025-07-12,12,1500.00,25
+25,Reykjavik - Wulkaniczne wycieczki,Podróż po islandzkich wulkanach,2025-04-01,2025-04-06,20,2100.00,26
+26,Berlin - Stolica Niemiec,Podróż po stolicy Niemiec,2025-10-10,2025-10-14,30,1800.00,27
+27,Hamburg - Miasto portów,Przygoda w niemieckim porcie,2025-11-15,2025-11-18,18,1400.00,28
+28,Düsseldorf - Nowoczesność i kultura,Podróż do miasta mody i designu,2025-09-05,2025-09-08,16,1600.00,29
+29,Moskwa - Podróż po stolicy Rosji,Zwiedzanie Kremla oraz zabytków Moskwy,2025-07-05,2025-07-12,25,2500.00,31
+30,Petersburg - Wizyta w "Wenecji Północy",Historia i zabytki Petersburga,2025-06-01,2025-06-06,20,2300.00,32
+31,Kazań - Miasto tatarów,Zwiedzanie Kazania,2025-05-25,2025-05-29,15,1400.00,33
+32,Nowosybirsk - Stolica Syberii,Podróż do serca Syberii,2025-08-10,2025-08-16,12,2100.00,34
+33,Kijów - Miasto kultury,Wycieczka po stolicy Ukrainy,2025-10-05,2025-10-08,22,1800.00,35
+34,Odessa - Wakacje nad Morzem Czarnym,Relaks na ukraińskim wybrzeżu,2025-09-15,2025-09-20,18,1700.00,36
+35,Charków - Zwiedzanie miasta,Podróż po wschodniej Ukrainie,2025-11-01,2025-11-03,14,1400.00,37
+36,Lwów - Historia i sztuka,Zwiedzanie Lwowa,2025-12-10,2025-12-14,20,1500.00,38
+37,Ateny - Stolica Grecji,Zwiedzanie starożytnych ruin,2025-06-25,2025-06-30,22,2000.00,39
+38,Saloniki - Przygoda w Grecji,Wypoczynek i zwiedzanie Salonik,2025-08-15,2025-08-18,15,1700.00,40
+39,Patras - Miasto nadmorskie,Relaks w zachodniej Grecji,2025-05-05,2025-05-07,12,1300.00,41
+40,Izmire - Wypoczynek na wybrzeżu,Zwiedzanie tureckiego wybrzeża,2025-07-15,2025-07-18,20,1500.00,42
+41,Ankara - Stolica Turcji,Zwiedzanie stolicy Turcji,2025-06-10,2025-06-13,18,1600.00,43
+42,Stambuł - Miasto na dwóch kontynentach,Podróż do jednego z najpiękniejszych miast na świecie,2025-04-01,2025-04-06,25,2500.00,44
+43,Seul - Stolica Korei,Miasto pełne technologii i historii,2025-08-05,2025-08-11,15,2000.00,45
+44,Busan - Portowe miasto Korei,Wypoczynek nad morzem w Korei,2025-09-01,2025-09-04,20,1700.00,46
+45,Incheon - Wypoczynek nad morzem,Relaks na wybrzeżu Korei,2025-07-10,2025-07-13,14,1500.00,47
+46,Jeju - Wyspa z pięknymi krajobrazami,Islandzka przygoda w Korei,2025-06-01,2025-06-05,12,1300.00,48
+47,Mumbai - Zatoka i miasto kontrastów,Podróż do Mumbai,2025-10-10,2025-10-14,18,2000.00,49
+48,Delhi - Wyprawa do stolicy Indii,Zwiedzanie Delhi i okolic,2025-09-25,2025-09-30,20,2200.00,50
+49,Hyderabad - Historia i kultura,Podróż po jednym z największych miast Indii,2025-11-10,2025-11-13,14,1800.00,51
+50,Chennai - Nad Zatoką Bengalską,Relaks w mieście w południowych Indiach,2025-08-20,2025-08-23,15,1600.00,52
+51,Kalkuta - Miasto kontrastów,Przygoda w Kalkucie,2025-07-05,2025-07-08,18,1700.00,53
+52,Bangalore - Wypoczynek w sercu Indii,Relaks w jednym z największych indyjskich miast,2025-06-15,2025-06-18,12,1500.00,54
+53,Lagos - Stolica Nigerii,Zwiedzanie i odpoczynek w Lagos,2025-09-01,2025-09-05,16,1400.00,55
+54,Abuja - Stolica Nigeryjczyków,Podróż do stolicy Nigerii,2025-10-20,2025-10-23,20,1600.00,56
+55,Kano - Wypoczynek na pustyni,Wyprawa po pustyni w Nigerii,2025-06-01,2025-06-04,12,1300.00,57
+56,Ibadan - Wizyta w zachodniej Nigerii,Relaks w Ibadan,2025-08-15,2025-08-18,18,1700.00,58
+57,Cairo - Wyprawa do Egiptu,Zwiedzanie starożytnych piramid,2025-07-15,2025-07-18,20,1800.00,59
+58,Alexandria - Wypoczynek nad Morzem Śródziemnym,Relaks w Egipcie,2025-08-01,2025-08-04,16,1500.00,60
+59,Giza - Wyprawa po piramidach,Zwiedzanie Gizy i piramid,2025-06-20,2025-06-23,14,1600.00,61
+60,Marsylia - Wypoczynek nad Morzem Śródziemnym,Podróż do Marsylii,2025-09-01,2025-09-05,18,1700.00,62
+61,Paryż - Stolica miłości,Romantyczna wycieczka do Paryża,2025-04-10,2025-04-14,20,1900.00,63
+62,Nicea - Wypoczynek na Lazurowym Wybrzeżu,Relaks w Nicei,2025-07-01,2025-07-04,15,1800.00,64
+63,Le Havre - Wyprawa nad Morze Północne,Przygoda na wybrzeżu,2025-06-15,2025-06-18,18,1600.00,65
+64,Barcelona - Wizyta w stolicy Katalonii,Zwiedzanie Barcelony,2025-05-10,2025-05-15,20,1700.00,66
+65,Madryt - Miasto kultury,Podróż do Madrytu,2025-08-10,2025-08-14,25,1800.00,67
+66,Valencia - Słońce i plaża,Relaks w Walencji,2025-06-01,2025-06-05,15,1600.00,68
+67,Sevilla - Flamenco i historia,Zwiedzanie Sewilli,2025-09-10,2025-09-13,12,1400.00,69
+68,Mexico City - Wyprawa po Meksyku,Zwiedzanie stolicy Meksyku,2025-10-01,2025-10-05,20,2000.00,70

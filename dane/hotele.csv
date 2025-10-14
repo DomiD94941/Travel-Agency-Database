@@ -1,0 +1,141 @@
+id_hotelu,nazwa_hotelu,ocena_hotelu,miasta_id_miasta
+1,Hotel Warszawa,4.5,1
+2,Hotel Kraków,4.2,2
+3,Hotel Wrocław,4.3,4
+4,Hotel Gdańsk,4.6,3
+5,Hotel Poznań,4.0,5
+6,Hotel Szczecin,4.4,6
+7,Hotel Monachium,4.7,7
+8,Hotel Frankfurt,4.5,8
+9,Hotel Hamburg,4.6,9
+10,Hotel Stuttgart,4.2,10
+11,Hotel Kolonia,4.8,11
+12,Hotel Norymberga,4.3,12
+13,Hotel Sztokholm,4.6,13
+14,Hotel Malmö,4.4,14
+15,Hotel Göteborg,4.5,15
+16,Hotel Oslo,4.3,16
+17,Hotel Helesinki,4.5,17
+18,Hotel Tampere,4.2,18
+19,Hotel Espoo,4.4,19
+20,Hotel Turku,4.0,20
+21,Hotel Florencja,4.6,22
+22,Hotel Neapol,4.3,23
+23,Hotel Turyn,4.4,24
+24,Hotel Medolany,4.2,25
+25,Hotel Reykjavik,4.7,26
+26,Hotel Berlin,4.6,27
+27,Hotel Hamburg,4.5,28
+28,Hotel Düsseldorf,4.4,29
+29,Hotel Moskwa,4.3,31
+30,Hotel Petersburg,4.2,32
+31,Hotel Kazań,4.1,33
+32,Hotel Nowosybirsk,4.5,34
+33,Hotel Kijów,4.7,35
+34,Hotel Odessa,4.4,36
+35,Hotel Charków,4.2,37
+36,Hotel Lwów,4.5,38
+37,Hotel Ateny,4.6,39
+38,Hotel Saloniki,4.5,40
+39,Hotel Patras,4.3,41
+40,Hotel Izmire,4.0,42
+41,Hotel Ankara,4.3,43
+42,Hotel Stambuł,4.7,44
+43,Hotel Seul,4.8,45
+44,Hotel Busan,4.5,46
+45,Hotel Incheon,4.3,47
+46,Hotel Jeju,4.4,48
+47,Hotel Mumbai,4.2,49
+48,Hotel Delhi,4.5,50
+49,Hotel Hyderabad,4.3,51
+50,Hotel Chennai,4.6,52
+51,Hotel Kalkuta,4.2,53
+52,Hotel Bangalore,4.5,54
+53,Hotel Lagos,4.3,55
+54,Hotel Abuja,4.2,56
+55,Hotel Kano,4.5,57
+56,Hotel Ibadan,4.1,58
+57,Hotel Cairo,4.6,59
+58,Hotel Alexandria,4.4,60
+59,Hotel Giza,4.3,61
+60,Hotel Marsylia,4.5,62
+61,Hotel Paryż,4.7,63
+62,Hotel Nicea,4.3,64
+63,Hotel Le Havre,4.4,65
+64,Hotel Barcelona,4.6,66
+65,Hotel Madryt,4.5,67
+66,Hotel Valencia,4.4,68
+67,Hotel Sevilla,4.3,69
+68,Hotel Mexico City,4.7,70
+69,Hotel Guadalajara,4.5,71
+70,Hotel Monterrey,4.6,72
+71,Hotel Leon,4.2,73
+72,Hotel Lima,4.6,75
+73,Hotel Arequipa,4.3,76
+74,Hotel Cuzco,4.2,77
+75,Hotel Trujillo,4.1,78
+76,Hotel Guayaquil,4.4,79
+77,Hotel Cartagena,4.5,80
+78,Hotel Quito,4.3,81
+79,Hotel Bogotá,4.4,82
+80,Hotel Medellín,4.5,83
+81,Hotel Cali,4.3,84
+82,Hotel Santiago,4.7,85
+83,Hotel Valparaíso,4.6,86
+84,Hotel Antofagasta,4.4,87
+85,Hotel La Paz,4.5,88
+86,Hotel Santa Cruz,4.6,89
+87,Hotel Cochabamba,4.3,90
+88,Hotel Sucre,4.4,93
+89,Hotel Perth,4.6,94
+90,Hotel Melbourne,4.7,95
+91,Hotel Sydney,4.8,96
+92,Hotel Brisbane,4.4,97
+93,Hotel Houston,4.7,101
+94,Hotel Dallas,4.5,102
+95,Hotel Los Angeles,4.6,103
+96,Hotel San Francisco,4.7,104
+97,Hotel New York,4.8,105
+98,Hotel Kuala Lumpur,4.6,106
+99,Hotel Penang,4.5,107
+100,Hotel Cyberjaya,4.3,108
+101,Hotel Singapur,4.7,109
+102,Hotel Brisbane,4.5,110
+103,Hotel Blue Moon,4.3,1
+104,Hotel Grand Horizon,4.6,7
+105,Hotel Ocean View,4.4,8
+106,Hotel Golden Gate,4.2,2
+107,Hotel Sunset Bay,4.7,13
+108,Hotel Silver Sands,4.8,7
+109,Hotel Mountain Peak,4.5,15
+110,Hotel Green Valley,4.4,15
+111,Hotel Coastal Breeze,4.7,5
+112,Hotel Rainbow Towers,4.5,4
+113,Hotel Sunset Beach,4.8,4
+114,Hotel Blue Lagoon,4.4,4
+115,Hotel Coral Reef,4.2,6
+116,Hotel Crystal Palace,4.3,4
+117,Hotel Tropical Breeze,4.7,6
+118,Hotel Moonlight Bay,4.5,4
+119,Hotel Ocean Breeze,4.3,3
+120,Hotel Moonlit Night,4.4,6
+121,Hotel Sea Breeze,4.6,2
+122,Hotel Snow Peak,4.5,6
+123,Hotel Desert Sands,4.3,6
+124,Hotel Golden Sun,4.2,9
+125,Hotel Silver Moon,4.4,2
+126,Hotel Royal Palms,4.7,9
+127,Hotel Sunset Horizon,4.5,8
+128,Hotel Lakeview,4.4,6
+129,Hotel Amber Springs,4.6,8
+130,Hotel Pearl Bay,4.2,15
+131,Hotel Sapphire Shore,4.3,10
+132,Hotel Oceanic,4.7,11
+133,Hotel Crystal Bay,4.6,12
+134,Hotel Marble Palace,4.5,13
+135,Hotel Winterfell,4.4,14
+136,Hotel Sunrise Bay,4.2,15
+137,Hotel Evergreen Woods,4.6,16
+138,Hotel Starry Night,4.5,17
+139,Hotel Wildflower,4.3,18
+140,Hotel Cloud Nine,4.4,19

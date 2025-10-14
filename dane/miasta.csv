@@ -1,0 +1,111 @@
+id_miasta,nazwa_miasta,kraje_id_kraju
+1,Warszawa,1
+2,Kraków,1
+3,Gdańsk,1
+4,Wrocław,1
+5,Poznań,1
+6,Szczecin,1
+7,Monachium,2
+8,Frankfurt,2
+9,Hamburg,2
+10,Stuttgart,2
+11,Kolonia,2
+12,Norymberga,2
+13,Sztokholm,3
+14,Malmö,3
+15,Göteborg,3
+16,Oslo,3
+17,Helesinki,4
+18,Tampere,4
+19,Espoo,4
+20,Turku,4
+21,Rzym,5
+22,Florencja,5
+23,Neapol,5
+24,Turyn,5
+25,Medolany,5
+26,Reykjavik,6
+27,Berlin,7
+28,Hamburg,7
+29,Düsseldorf,7
+30,Frankfurt,7
+31,Moskwa,8
+32,Petersburg,8
+33,Kazań,8
+34,Nowosybirsk,8
+35,Kijów,9
+36,Odessa,9
+37,Charków,9
+38,Lwów,9
+39,Ateny,10
+40,Saloniki,10
+41,Patras,10
+42,Izmire,11
+43,Ankara,11
+44,Stambuł,11
+45,Seul,12
+46,Busan,12
+47,Incheon,12
+48,Jeju,12
+49,Mumbai,13
+50,Delhi,13
+51,Hyderabad,13
+52,Chennai,13
+53,Kalkuta,13
+54,Bangalore,13
+55,Lagos,14
+56,Abuja,14
+57,Kano,14
+58,Ibadan,14
+59,Cairo,15
+60,Alexandria,15
+61,Giza,15
+62,Marsylia,16
+63,Paryż,16
+64,Nicea,16
+65,Le Havre,16
+66,Barcelona,17
+67,Madryt,17
+68,Valencia,17
+69,Sevilla,17
+70,Mexico City,18
+71,Guadalajara,18
+72,Monterrey,18
+73,Leon,18
+74,Mexico City,18
+75,Lima,19
+76,Arequipa,19
+77,Cuzco,19
+78,Trujillo,19
+79,Guayaquil,20
+80,Cartagena,20
+81,Quito,20
+82,Bogotá,21
+83,Medellín,21
+84,Cali,21
+85,Santiago,22
+86,Valparaíso,22
+87,Antofagasta,22
+88,La Paz,23
+89,Santa Cruz,23
+90,Cochabamba,23
+91,La Paz,24
+92,Santa Cruz,24
+93,Sucre,24
+94,Perth,25
+95,Melbourne,25
+96,Sydney,25
+97,Brisbane,25
+98,Bogotá,26
+99,Medellín,26
+100,Cali,26
+101,Houston,27
+102,Dallas,27
+103,Los Angeles,27
+104,San Francisco,27
+105,New York,27
+106,Kuala Lumpur,28
+107,Penang,28
+108,Cyberjaya,28
+109,Singapur,29
+110,Brisbane,30

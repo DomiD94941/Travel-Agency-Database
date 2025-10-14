@@ -1,0 +1,131 @@
+id_rezerwacji,data_rezerwacji,staus_rezerwacji,klienci_id_klienta,wycieczki_id_wycieczki,pracownicy_id_pracownika
+1,2025-01-01,Potwierdzona,1,1,3
+2,2025-01-02,Anulowana,2,1,5
+3,2025-01-03,W trakcie,3,2,8
+4,2025-01-04,Potwierdzona,4,2,10
+5,2025-01-05,Anulowana,5,3,7
+6,2025-01-06,W trakcie,6,3,6
+7,2025-01-07,Potwierdzona,7,4,14
+8,2025-01-08,Anulowana,8,4,12
+9,2025-01-09,W trakcie,9,5,2
+10,2025-01-10,Potwierdzona,10,5,4
+11,2025-01-11,Anulowana,11,6,3
+12,2025-01-12,W trakcie,12,6,16
+13,2025-01-13,Potwierdzona,13,7,18
+14,2025-01-14,Anulowana,14,7,19
+15,2025-01-15,W trakcie,15,8,6
+16,2025-01-16,Potwierdzona,16,8,9
+17,2025-01-17,Anulowana,17,9,8
+18,2025-01-18,W trakcie,18,9,13
+19,2025-01-19,Potwierdzona,19,10,5
+20,2025-01-20,Anulowana,20,10,4
+21,2025-01-21,W trakcie,21,1,15
+22,2025-01-22,Potwierdzona,22,2,18
+23,2025-01-23,Anulowana,23,3,1
+24,2025-01-24,W trakcie,24,4,7
+25,2025-01-25,Potwierdzona,25,5,19
+26,2025-01-26,Anulowana,26,6,17
+27,2025-01-27,W trakcie,27,7,3
+28,2025-01-28,Potwierdzona,28,8,9
+29,2025-01-29,Anulowana,29,9,6
+30,2025-01-30,W trakcie,30,10,16
+31,2025-02-01,Potwierdzona,31,1,1
+32,2025-02-02,Anulowana,32,2,11
+33,2025-02-03,W trakcie,33,3,14
+34,2025-02-04,Potwierdzona,34,4,10
+35,2025-02-05,Anulowana,35,5,18
+36,2025-02-06,W trakcie,36,6,13
+37,2025-02-07,Potwierdzona,37,7,16
+38,2025-02-08,Anulowana,38,8,4
+39,2025-02-09,W trakcie,39,9,15
+40,2025-02-10,Potwierdzona,40,10,19
+41,2025-02-11,Anulowana,41,1,12
+42,2025-02-12,W trakcie,42,2,7
+43,2025-02-13,Potwierdzona,43,3,8
+44,2025-02-14,Anulowana,44,4,9
+45,2025-02-15,W trakcie,45,5,5
+46,2025-02-16,Potwierdzona,46,6,11
+47,2025-02-17,Anulowana,47,7,2
+48,2025-02-18,W trakcie,48,8,13
+49,2025-02-19,Potwierdzona,49,9,16
+50,2025-02-20,Anulowana,50,10,10
+51,2025-02-21,W trakcie,1,1,17
+52,2025-02-22,Potwierdzona,2,2,4
+53,2025-02-23,Anulowana,3,3,1
+54,2025-02-24,W trakcie,4,4,18
+55,2025-02-25,Potwierdzona,5,5,3
+56,2025-02-26,Anulowana,6,6,9
+57,2025-02-27,W trakcie,7,7,19
+58,2025-02-28,Potwierdzona,8,8,2
+59,2025-03-01,Anulowana,9,9,14
+60,2025-03-02,W trakcie,10,10,7
+61,2025-03-03,Potwierdzona,11,1,6
+62,2025-03-04,Anulowana,12,2,18
+63,2025-03-05,W trakcie,13,3,10
+64,2025-03-06,Potwierdzona,14,4,1
+65,2025-03-07,Anulowana,15,5,15
+66,2025-03-08,W trakcie,16,6,12
+67,2025-03-09,Potwierdzona,17,7,8
+68,2025-03-10,Anulowana,18,8,5
+69,2025-03-11,W trakcie,19,9,13
+70,2025-03-12,Potwierdzona,20,10,9
+71,2025-03-13,Anulowana,21,1,4
+72,2025-03-14,W trakcie,22,2,6
+73,2025-03-15,Potwierdzona,23,3,10
+74,2025-03-16,Anulowana,24,4,17
+75,2025-03-17,W trakcie,25,5,11
+76,2025-03-18,Potwierdzona,26,6,3
+77,2025-03-19,Anulowana,27,7,14
+78,2025-03-20,W trakcie,28,8,12
+79,2025-03-21,Potwierdzona,29,9,8
+80,2025-03-22,Anulowana,30,10,19
+81,2025-03-23,W trakcie,31,1,5
+82,2025-03-24,Potwierdzona,32,2,15
+83,2025-03-25,Anulowana,33,3,4
+84,2025-03-26,W trakcie,34,4,9
+85,2025-03-27,Potwierdzona,35,5,18
+86,2025-03-28,Anulowana,36,6,7
+87,2025-03-29,W trakcie,37,7,12
+88,2025-03-30,Potwierdzona,38,8,11
+89,2025-03-31,Anulowana,39,9,16
+90,2025-04-01,W trakcie,40,10,19
+91,2025-04-02,Potwierdzona,41,1,4
+92,2025-04-03,Anulowana,42,2,15
+93,2025-04-04,W trakcie,43,3,5
+94,2025-04-05,Potwierdzona,44,4,18
+95,2025-04-06,Anulowana,45,5,12
+96,2025-04-07,W trakcie,46,6,13
+97,2025-04-08,Potwierdzona,47,7,9
+98,2025-04-09,Anulowana,48,8,6
+99,2025-04-10,W trakcie,49,9,14
+100,2025-04-11,Potwierdzona,50,10,3
+101,2025-04-12,Anulowana,1,1,8
+102,2025-04-13,W trakcie,2,2,19
+103,2025-04-14,Potwierdzona,3,3,7
+104,2025-04-15,Anulowana,4,4,16
+105,2025-04-16,W trakcie,5,5,11
+106,2025-04-17,Potwierdzona,6,6,10
+107,2025-04-18,Anulowana,7,7,5
+108,2025-04-19,W trakcie,8,8,18
+109,2025-04-20,Potwierdzona,9,9,17
+110,2025-04-21,Anulowana,10,10,12
+111,2025-04-22,W trakcie,11,1,4
+112,2025-04-23,Potwierdzona,12,2,13
+113,2025-04-24,Anulowana,13,3,9
+114,2025-04-25,W trakcie,14,4,2
+115,2025-04-26,Potwierdzona,15,5,6
+116,2025-04-27,Anulowana,16,6,11
+117,2025-04-28,W trakcie,17,7,8
+118,2025-04-29,Potwierdzona,18,8,17
+119,2025-04-30,Anulowana,19,9,4
+120,2025-05-01,W trakcie,20,10,3
+121,2025-05-02,Potwierdzona,21,1,16
+122,2025-05-03,Anulowana,22,2,5
+123,2025-05-04,W trakcie,23,3,19
+124,2025-05-05,Potwierdzona,24,4,9
+125,2025-05-06,Anulowana,25,5,7
+126,2025-05-07,W trakcie,26,6,18
+127,2025-05-08,Potwierdzona,27,7,2
+128,2025-05-09,Anulowana,28,8,15
+129,2025-05-10,W trakcie,29,9,10
+130,2025-05-11,Potwierdzona,30,10,14

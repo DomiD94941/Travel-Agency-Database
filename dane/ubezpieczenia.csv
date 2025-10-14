@@ -1,0 +1,16 @@
+id_ubezpieczenia,nazwa_ubezpieczenia,cena
+1,Ubezpieczenie podróży zagranicznej,150.00
+2,Ubezpieczenie na wypadek odwołania wycieczki,200.00
+3,Ubezpieczenie bagażu,50.00
+4,Ubezpieczenie zdrowotne,120.00
+5,Ubezpieczenie turystyczne,180.00
+6,Ubezpieczenie od nieszczęśliwych wypadków,100.00
+7,Ubezpieczenie podróży krajowej,90.00
+8,Ubezpieczenie na wypadek utraty dokumentów,75.00
+9,Ubezpieczenie na czas podróży samochodowej,110.00
+10,Ubezpieczenie OC w podróży,130.00
+11,Ubezpieczenie turystyki pieszej,60.00
+12,Ubezpieczenie wyjazdu służbowego,170.00
+13,Ubezpieczenie podróży poślubnej,250.00
+14,Ubezpieczenie na wypadek opóźnienia lotu,95.00
+15,Ubezpieczenie na wypadek uszkodzenia sprzętu,180.00

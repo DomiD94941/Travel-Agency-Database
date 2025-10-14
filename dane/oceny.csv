@@ -1,0 +1,71 @@
+id_oceny,ocena,komentarz,klienci_id_klienta,wycieczka_id_wycieczki
+1,5,"Świetna wycieczka, polecam!",1,1
+2,4,"Było fajnie, ale mogło być więcej atrakcji.",2,1
+3,3,"Nie spełniła moich oczekiwań.",3,2
+4,5,"Super doświadczenie, na pewno wrócę!",4,2
+5,4,"Kraków zimą jest magiczny!",5,2
+6,5,"Bardzo relaksująca wycieczka!",6,3
+7,4,"Miło spędzony czas nad morzem.",7,3
+8,3,"Trochę za zimno na plażowanie.",8,4
+9,5,"Wrocław jest niesamowity, polecam zwiedzanie!",9,4
+10,5,"Bardzo ciekawa wycieczka z wieloma atrakcjami.",10,5
+11,4,"Poznań ma swój urok, ale mogło być lepiej.",11,5
+12,5,"Zdecydowanie najlepszy weekend, jaki spędziłem!",12,6
+13,4,"Miasto bardzo ładne, ale nie wystarczyło mi czasu.",13,6
+14,5,"Cudowna wycieczka po Szczecinie!",14,6
+15,5,"Piękne widoki i świetna atmosfera.",15,7
+16,3,"Za drogo w porównaniu do jakości.",16,7
+17,4,"Monachium jest wspaniałe, ale niektóre atrakcje zamknięte.",17,7
+18,5,"Wspaniały wypoczynek w Niemczech!",18,8
+19,5,"Miasto finansów, bardzo nowoczesne!",19,8
+20,4,"Hamburg jest ładny, ale sporo deszczu.",20,9
+21,4,"Świetne miasto, ale pogoda nie dopisała.",21,9
+22,5,"Stuttgart to naprawdę piękne miasto!",22,10
+23,5,"Miasto katedr robi wrażenie!",23,10
+24,4,"Bardzo ładne miasto, ale trochę drogo.",24,11
+25,5,"Reykjavik jest wyjątkowy, warto zobaczyć!",25,11
+26,4,"Kultura w Reykjaviku jest fascynująca, ale trochę za mało czasu.",26,12
+27,5,"Piękna Norymberga!",27,12
+28,4,"Miasto historyczne, ale troszkę za tłoczno.",28,13
+29,5,"Sztokholm zachwyca, miła podróż.",29,13
+30,4,"Miasto bardzo ładne, ale wolałbym więcej atrakcji w programie.",30,14
+31,5,"Bardzo dobra organizacja, warto pojechać!",31,15
+32,5,"Przewodnik bardzo kompetentny i miły.",32,15
+33,4,"Trochę za dużo turystów, ale i tak warto.",33,16
+34,4,"Piękne widoki, ale program był dość napięty.",34,16
+35,3,"Pogoda pokrzyżowała plany, ale nie ma co narzekać.",35,17
+36,4,"Cudowne widoki w górach, ale męcząca podróż.",36,17
+37,5,"Przemili ludzie, wspaniała atmosfera!",37,18
+38,5,"Czysto, ciepło, wszystko zgodnie z planem.",38,18
+39,4,"Niezłe doświadczenie, chociaż niektóre miejsca były zatłoczone.",39,19
+40,3,"Zbyt mało czasu na zwiedzanie, ale dobrze zorganizowane.",40,19
+41,5,"Rekomenduję wszystkim, pełna satysfakcja!",41,20
+42,5,"Jeden z najlepszych weekendów w życiu!",42,20
+43,4,"Fajna wycieczka, ale podróż mogła być krótsza.",43,21
+44,4,"Warto było, choć moglibyśmy zostać dłużej.",44,21
+45,5,"Fascynujące miasto i kultura!",45,22
+46,5,"Polecam każdemu, to była świetna decyzja!",46,22
+47,4,"Przyjemna wycieczka, ale mogłoby być lepiej z transportem.",47,23
+48,3,"Dość przeciętne, ale nadal warto zobaczyć.",48,23
+49,5,"Miasto pełne niespodzianek, wspaniała atmosfera!",49,24
+50,4,"Piękne miasto, ale brakuje dobrego planu zwiedzania.",50,24
+51,5,"Londyn jest naprawdę fascynujący!",51,25
+52,4,"Warto było odwiedzić Londyn, ale pogoda nie sprzyjała.",52,25
+53,5,"Zachwycające miasto, pełne historii i kultury.",53,26
+54,5,"Rekomenduję każdemu, wspaniała podróż!",54,26
+55,3,"Było ok, ale spodziewałem się czegoś więcej.",55,27
+56,4,"Dobre wrażenie, ale zbyt turystycznie.",56,27
+57,5,"Cudowne widoki na całym zwiedzaniu!",57,28
+58,4,"Zdecydowanie polecam, choć kilka miejsc było zatłoczonych.",58,28
+59,5,"Znakomita organizacja, warto jechać.",59,29
+60,5,"Wycieczka świetnie zorganizowana, pełna atrakcji!",60,29
+61,3,"Słabo z czasem, za mało czasu na zwiedzanie.",61,30
+62,4,"Miasto bardzo ładne, ale trochę za mało atrakcji.",62,30
+63,5,"Zdecydowanie warto zobaczyć Paryż, magiczne miasto.",63,31
+64,4,"Paryż to wspaniałe miasto, ale tłumy turystów psują wrażenie.",64,31
+65,5,"Przepiękne widoki i bardzo ciekawa kultura.",65,32
+66,5,"Niesamowite doświadczenie, warto było!",66,32
+67,4,"Niektóre atrakcje były zamknięte, ale ogólnie bardzo pozytywne.",67,33
+68,4,"Miasto świetne, ale zbyt tłoczno i drogo.",68,33
+69,5,"Polecam każdemu, kto chce zobaczyć coś naprawdę wyjątkowego.",69,34
+70,5,"Wszystko zgodnie z planem, cudowne wrażenia.",70,34
