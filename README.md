@@ -1,12 +1,16 @@
 # Oracle Travel Agency Database Project
 
 ## Overview
+
 This project provides a complete Oracle XE 21c database setup for a travel agency management system.  
 It automates the creation of all schema objects, loads data from CSV files, and initializes the environment using Docker.
 
 The goal is to deliver a ready-to-use, containerized environment for data analysis, reporting, and further application development.
 
+---
+
 ## Main Features
+
 - Fully automated setup via Docker and SQL*Plus
 - Hierarchical data model with geographic, client, booking, and logistics modules
 - External table loading from CSV files
@@ -39,6 +43,7 @@ The goal is to deliver a ready-to-use, containerized environment for data analys
 ## Setup Instructions
 
 ### 1. Start the Database
+
 ```bash
 docker-compose up -d
 ```
@@ -53,9 +58,12 @@ Mount local folders with CSV and SQL scripts
 
 Expose Oracle port 1521
 
-2. Connect to the Database
+### 2. Connect to the Database
+
+#### 1. if you want execute scripts on system.
 
 From Docker CLI:
+
 
 ```bash
 docker exec -it oracle-xe bash
@@ -63,6 +71,33 @@ docker exec -it oracle-xe bash
 
 ```bash
 sqlplus system/admin@//localhost:1521/XE
+```
+
+```bash
+@/opt/oracle/scripts/startup/system/main.sql
+```
+
+#### 2. If you want to execute scripts on created user from scritp: sql/system/create_user.sql
+
+From user SYSTEM:
+
+```bash
+docker exec -it oracle-xe bash
+```
+
+```bash 
+sqlplus system/admin@//localhost:1521/XE
+```
+
+
+```bash 
+@/opt/oracle/scripts/startup/system/create_user.sql
+```
+
+Then logout and do from created user:
+
+```bash
+sqlplus travel_app/travel123@//localhost:1521/XE @/opt/oracle/scripts/startup/user/main.sql
 ```
 
 From any SQL client (e.g. DataGrip, DBeaver):
