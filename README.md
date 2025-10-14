@@ -45,11 +45,6 @@ The goal is to deliver a ready-to-use, containerized environment for data analys
 ### 1. Start the Database
 
 ```bash
-docker run -d -p 1521:1521 -e ORACLE_PASSWORD=admin gvenzl/oracle-xe
-```
-Then start it:
-
-```bash
 docker-compose up -d
 ```
 
