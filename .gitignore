@@ -1,0 +1,30 @@
+# Ignore Oracle external table logs and bad files
+*.log
+*.bad
+*.dat
+
+# Ignore SQL*Plus generated logs or spool files
+*.lst
+*.out
+
+# Ignore Docker build artifacts
+*.pid
+*.tmp
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python / editor folders (if any)
+__pycache__/
+.vscode/
+.idea/
+
+# Ignore any backup or temporary files
+*~
+*.swp
+*.swo
+
+# Ignore Oracle dump directories (if used)
+dump/
