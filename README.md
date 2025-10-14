@@ -1,103 +1,138 @@
-A **database-driven travel management platform** built with **Oracle Database 21c XE** and **PL/SQL**, designed to manage tours, clients, reservations, guides, transport, and hotels for a travel agency.  
-Includes complete schema, data import automation, business logic (functions, procedures, triggers), and reporting views.
+# Oracle Travel Agency Database Project
+
+## Overview
+This project provides a complete Oracle XE 21c database setup for a travel agency management system.  
+It automates the creation of all schema objects, loads data from CSV files, and initializes the environment using Docker.
+
+The goal is to deliver a ready-to-use, containerized environment for data analysis, reporting, and further application development.
+
+## Main Features
+- Fully automated setup via Docker and SQL*Plus
+- Hierarchical data model with geographic, client, booking, and logistics modules
+- External table loading from CSV files
+- Referential integrity between all entities
+- Clean restart support (safe to re-run multiple times)
+- Ready for extension with stored procedures and PL/SQL logic
 
 ---
 
-## 🚀 Features
-
-✅ Complete relational database model (15 tables)  
-✅ Automatic CSV data import using Oracle External Tables  
-✅ 10 business functions for analytics & automation  
-✅ 7 procedures for data management and workflows  
-✅ 2 triggers for data integrity and event logging  
-✅ 1 view for reporting (Top 10 most booked trips)  
-✅ Fully Dockerized Oracle XE environment  
-✅ Clean SQL structure and reusable PL/SQL logic  
-
----
-
-## 🧱 Database Schema
-
-**Main Entities:**
-- 🌍 `Kontynenty`, `Kraje`, `Miasta` – geography
-- 🏨 `Hotele` – hotels and locations
-- 👥 `Klienci`, `Pracownicy`, `Przewodnicy` – people
-- 🌴 `Wycieczki` – trips and tourism data
-- 💬 `Oceny` – customer reviews
-- 💰 `Rezerwacje`, `Ubezpieczenia` – bookings and insurance
-- 🚌 `Transport`, `Etapy_Transportu`, `Przesiadki` – travel logistics
-
-All tables use **foreign key relationships** to maintain data integrity.  
-(See the `main.sql` file for full schema definitions.)
+## Main Relationships
+- Kontynenty → Kraje → Miasta → hierarchical structure
+- Miasta → Hotele (1:N)
+- Miasta → Wycieczki (1:N)
+- Wycieczki → Rezerwacje (1:N)
+- Klienci → Rezerwacje (1:N)
+- Przewodnicy → Wycieczki (M:N)
+- Wycieczki → Transport → Etapy → Przesiadki (1:N chain)
+- Rezerwacje → Ubezpieczenia (M:N)
 
 ---
 
-## 🐳 Docker Setup
+## Requirements
+- Docker 20.10 or newer  
+- Docker Compose 2.0 or newer  
+- Minimum 2 GB RAM  
+- 5 GB free disk space  
 
-You can run the full Oracle XE environment using Docker:
+---
 
+## Setup Instructions
+
+### 1. Start the Database
 ```bash
 docker-compose up -d
 ```
 
-Then, copy SQL files and CSV data into the container:
+This will:
+
+Pull the official Oracle XE 21c image
+
+Start the container oracle-xe
+
+Mount local folders with CSV and SQL scripts
+
+Expose Oracle port 1521
+
+2. Connect to the Database
+
+From Docker CLI:
 
 ```bash
-docker cp main.sql <container_id>:/home/oracle/
-docker cp dane/ <container_id>:/opt/oracle/dane/
+docker exec -it oracle-xe bash
 ```
-
-Connect to Oracle SQL*Plus:
 
 ```bash
-docker exec -it <container_id> sqlplus system/oracle@localhost/XEPDB1
+sqlplus system/admin@//localhost:1521/XE
 ```
 
-Run scripts inside the database:
+From any SQL client (e.g. DataGrip, DBeaver):
+
+```yaml
+Host: localhost
+Port: 1521
+SID: XE
+User: system
+Password: admin
+```
+
+## Folder Structure
 
 ```bash
-@/home/oracle/main.sql
-```
-
----
-
-## 📦 Project Structure
-
-📁 Travel-Management-System/
+project-root/
 │
-├── 🐳 Dockerfile
-├── 🐳 docker-compose.yml
-├── 🧠 main.sql                # Database schema
-├── 📥 import_data.sql         # External table + data import
-├── 🧩 functions.sql           # Business logic functions
-├── ⚙️ procedures.sql          # Stored procedures
-├── 🔔 triggers_and_views.sql  # Triggers and reporting views
-├── 📚 Travel_Management_System_Description.docx
-├── 📄 README.md
-└── 📂 dane/                   # CSV data files
-
-## 🧪 How to Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/travel-management-system.git
+├── dane/                        # CSV data files
+│   ├── kraje.csv
+│   ├── miasta.csv
+│   ├── wycieczki.csv
+│   └── ...
+│
+├── main.sql                     # Full schema and data initialization script
+├── Dockerfile                   # Oracle image setup
+├── docker-compose.yml            # Docker service definition
+└── README.md
 ```
 
-Start the Oracle container:
+## Data Initialization Script
 
-```bash
-docker-compose up -d
-```
+The main.sql script performs the following:
 
-Load the schema:
+Drops all existing user tables (excluding system ones)
 
-```bash
-sqlplus system/oracle@localhost/XEPDB1 @main.sql
-```
+Creates directories for external data access
 
-Import the data:
+Imports CSV data into external tables
 
-```bash
-sqlplus system/oracle@localhost/XEPDB1 @import_data.sql
-```
+Loads the data into permanent tables
+
+Enforces all primary and foreign key constraints
+
+Cleans up external tables after import
+
+Commits all changes safely
+
+All date values are parsed using the YYYY-MM-DD format.
+
+## Example Entities
+
+Kontynenty – list of continents
+
+Kraje – list of countries
+
+Miasta – list of cities (linked to countries)
+
+Hotele – hotels in each city
+
+Wycieczki – travel packages
+
+Przewodnicy – tour guides
+
+Rezerwacje – reservations with assigned clients and employees
+
+Transport / Etapy / Przesiadki – travel logistics chain
+
+Future Enhancements (Planned)
+Stored procedures for analytics and dynamic reporting
+
+## License
+This project is released for academic and development purposes.
+You may freely modify, extend, and distribute it under your own repository.
