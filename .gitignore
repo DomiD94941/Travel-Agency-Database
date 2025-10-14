@@ -28,3 +28,8 @@ __pycache__/
 
 # Ignore Oracle dump directories (if used)
 dump/
+
+# Ignore VS Code workspace files (user-specific)
+# This prevents committing Travel-Agency-Database.code-workspace or any other
+# workspace files that are personal to each developer.
+*.code-workspace
